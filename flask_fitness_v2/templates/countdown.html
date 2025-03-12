@@ -58,7 +58,7 @@
                 document.getElementById('start-button').style.display = 'block';
                 currentRepetition++;
                 updateRepetitionCircles();
-                if (currentRepetition > exercises[currentExerciseIndex].repetitions) {
+                if (currentRepetition > exercises[currentExerciseIndex].sets) { // sets war repetitions
                     currentSet++;
                     currentRepetition = 1;
                     if (currentSet > exercises[currentExerciseIndex].sets) {
@@ -82,7 +82,7 @@
             const circlesContainer = document.getElementById('repetition-circles');
             circlesContainer.innerHTML = '';
 
-            for (let i = 1; i <= exercise.repetitions; i++) {
+            for (let i = 1; i <= exercise.sets; i++) { // sets war repetitions
                 const circle = document.createElement('span');
                 circle.className = 'circle';
                 if (i <= currentRepetition) {
@@ -152,7 +152,7 @@
             <button id="next-exercise-button" class="btn btn-primary mt-4" style="display: none;" onclick="startNextExercise()">Nächste Übung starten</button>
         </div>
         <div class="text-center mt-4">
-            <h3>Wiederholungen</h3>
+            <h3>Sätze</h3> 
             <div id="repetition-circles" class="text-center"></div>
         </div>
     </div>
