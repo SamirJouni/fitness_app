@@ -4,53 +4,270 @@
         "title": "Push-Up",
         "description": "Eine klassische Übung für die Brust.",
         "image": "pushup.jpg",
-        "repetitions": 4,
-        "sets": 4,
+        "repetitions": 6,
+        "sets": 3,
         "level": "einfach"
     },
     {
         "id": 2,
+        "title": "Push-Up",
+        "description": "Eine klassische Übung für die Brust.",
+        "image": "pushup.jpg",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel"
+    },
+    {
+        "id": 3,
+        "title": "Push-Up",
+        "description": "Eine klassische Übung für die Brust.",
+        "image": "pushup.jpg",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer"
+    },
+    {
+        "id": 4,
         "title": "Squat",
         "description": "Eine grundlegende Übung für die Beine.",
         "image": "squat.jpg",
-        "repetitions": 2,
+        "repetitions": 6,
         "sets": 3,
         "level": "einfach"
     },
     {
-        "id": 3,
-        "title": "Bench Press",
-        "description": "Eine Übung für die Brust mit Gewichten.",
-        "image": "benchpress.jpg",
-        "repetitions": 2,
-        "sets": 3,
-        "level": "mittel"
-    },
-    {
-        "id": 4,
-        "title": "Deadlift",
-        "description": "Eine Übung für den gesamten Körper.",
-        "image": "deadlift.jpg",
-        "repetitions": 2,
-        "sets": 3,
-        "level": "mittel"
-    },
-    {
         "id": 5,
-        "title": "Pull-Up",
-        "description": "Eine anspruchsvolle Übung für den Rücken.",
-        "image": "pullup.jpg",
-        "repetitions": 2,
-        "sets": 3,
-        "level": "schwer"
+        "title": "Squat",
+        "description": "Eine grundlegende Übung für die Beine.",
+        "image": "squat.jpg",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel"
     },
     {
         "id": 6,
-        "title": "Clean and Jerk",
-        "description": "Eine komplexe Übung für Kraft und Technik.",
-        "image": "cleanandjerk.jpg",
-        "repetitions": 2,
-        "sets": 3,
+        "title": "Squat",
+        "description": "Eine grundlegende Übung für die Beine.",
+        "image": "squat.jpg",
+        "repetitions": 12,
+        "sets": 5,
         "level": "schwer"
+    },
+    {
+        "id": 7,
+        "title": "Butterfly",
+        "description": "Eine Übung für die gesamte Brust",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach"    
+    },
+    {
+        "id": 8,
+        "title": "Butterfly",
+        "description": "Eine Übung für die gesamte Brust",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel"    
+    },
+    {
+        "id": 9,
+        "title": "Butterfly",
+        "description": "Eine Übung für die gesamte Brust",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer"    
+    },
+    {
+        "id": 10,
+        "title": "Tripes",
+        "description": "Eine Übung für den Trizeps",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach"     
+    },
+    {
+        "id": 11,
+        "title": "Tripes",
+        "description": "Eine Übung für den Trizeps",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel"     
+    },
+    {
+        "id": 12,
+        "title": "Tripes",
+        "description": "Eine Übung für den Trizeps",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer"     
+    },
+    {
+        "id": 13,
+        "title": "Rudern",
+        "description": "Eine Übung für den Oberen Rücken",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach" 
+    },
+    {
+        "id": 14,
+        "title": "Rudern",
+        "description": "Eine Übung für den Oberen Rücken",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel" 
+    },
+    {
+        "id": 15,
+        "title": "Rudern",
+        "description": "Eine Übung für den Oberen Rücken",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer" 
+    },
+    {
+        "id": 16,
+        "title": "Kreuzheben",
+        "description": "Eine Übung für die Körperrückseite",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach" 
+    },
+    {
+        "id": 17,
+        "title": "Kreuzheben",
+        "description": "Eine Übung für die Körperrückseite",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel" 
+    },
+    {
+        "id": 18,
+        "title": "Kreuzheben",
+        "description": "Eine Übung für die Körperrückseite",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer" 
+    },
+    {
+        "id": 19,
+        "title": "Bizeps Curls",
+        "description": "Eine Übung für den Bizeps",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach" 
+    },
+    {
+        "id": 20,
+        "title": "Bizeps Curls",
+        "description": "Eine Übung für den Bizeps",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel" 
+    },
+    {
+        "id": 21,
+        "title": "Bizeps Curls",
+        "description": "Eine Übung für den Bizeps",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer" 
+    },
+    {
+        "id": 22,
+        "title": "Wadenheben",
+        "description": "Eine Übung für die Waden",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach" 
+    },
+    {
+        "id": 23,
+        "title": "Wadenheben",
+        "description": "Eine Übung für die Waden",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel" 
+    },
+    {
+        "id": 24,
+        "title": "Wadenheben",
+        "description": "Eine Übung für die Waden",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer" 
+    },
+    {
+        "id": 25,
+        "title": "Seitheben",
+        "description": "Eine Übung für die seitliche Schulter",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach" 
+    },
+    {
+        "id": 26,
+        "title": "Seitheben",
+        "description": "Eine Übung für die seitliche Schulter",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel" 
+    },
+    {
+        "id": 27,
+        "title": "Seitheben",
+        "description": "Eine Übung für die seitliche Schulter",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer" 
+    },
+    {
+        "id": 28,
+        "title": "Situps",
+        "description": "Eine Übung für die Bauchmuskeln",
+        "image": "",
+        "repetitions": 6,
+        "sets": 3,
+        "level": "einfach" 
+    },
+    {
+        "id": 29,
+        "title": "Situps",
+        "description": "Eine Übung für die Bauchmuskeln",
+        "image": "",
+        "repetitions": 9,
+        "sets": 4,
+        "level": "mittel" 
+    },
+    {
+        "id": 30,
+        "title": "Situps",
+        "description": "Eine Übung für die Bauchmuskeln",
+        "image": "",
+        "repetitions": 12,
+        "sets": 5,
+        "level": "schwer" 
     }
+
 ]
