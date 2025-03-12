@@ -1,3 +1,0 @@
-Flask
-Flask_WTF
-Flask_SQLAlchemy
